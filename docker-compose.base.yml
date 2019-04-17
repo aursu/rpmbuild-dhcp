@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  centos7dhcpbase:
+    build:
+      context: .
+      dockerfile: Dockerfile.base
+    image: aursu/dhcpbuild:7-base
